@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ramann123/hotstar:latest
+        image: php:8.1-apache
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
